@@ -1,0 +1,347 @@
+@media screen and (min-device-width: 0px) and (max-device-width: 767px) {
+    html {
+        font-size: 13px !important;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .slick-list.draggable {
+        overflow: hidden;
+    }
+    .slide__caption h2 {
+        font-size: 3vw !important;
+    }
+    .slide__title {
+        font-weight: 500;
+        margin: 0 !important;
+    }
+    .slide__constrained {
+        padding-top: unset !important;
+        min-height: 0 !important;
+    }
+    .slide--caption--center .slide__caption {
+        position: absolute;
+        top: 50%;
+        font-size: 28px !important;
+        transform: translateY(-50%);
+    }
+    .slide__title {
+        margin: -92px 0 0px;
+    }
+    /* /////////////////////////// */
+    .header .main-navigation .region-header-right {
+        display: unset !important;
+        width: 100% !important;
+    }
+    #header .main-navigation ul li a {
+        color: #fff !important;
+    }
+    .header#header .row {
+        display: unset;
+        align-items: baseline;
+    }
+    .main-navigation {
+        width: 100%;
+        position: absolute;
+        top: 46px;
+        right: 0px;
+    }
+    .header .main-navigation ul {
+        display: none;
+    }
+    .slide--caption--center .slide__caption {
+        position: absolute !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
+    .slide--caption--center .slide__caption .slide__title h2 {
+        font-size: 28px !important;
+        margin: 0 !important;
+    }
+    .responsive-menus.responsified.responsive-toggled span.toggler {
+        text-align: right !important;
+        padding: 6px;
+    }
+    .responsive-menus.responsified span.toggler {
+        text-align: end;
+        padding: 6px;
+    }
+    .search-block-form {
+        width: 50% !important;
+        margin: auto;
+    }
+    .main-navigation .search--block {
+        display: none;
+    }
+    .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
+        top: 39px;
+    }
+    .responsive-menus.responsified span.toggler {
+        max-width: 100px;
+        float: right;
+    }
+    .mobile-login-block a {
+        color: #fff;
+        font-weight: 600;
+        display: block;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .user-logged-in .mobile-login-block a {
+        margin-top: -16px;
+    }
+    .mobile-login-block .container-inline div,
+    .container-inline label {
+        display: flex;
+        align-items: center;
+        padding-top: 8px;
+    }
+    .mobile-login-block .views-exposed-form {
+        margin-top: 10px;
+    }
+    .header #search-block-form .button.js-form-submit {
+        border: none !important;
+    }
+    .slick__arrow {
+        top: 50%;
+    }
+    .view-youtube-video-by-category button.slick-next.slick-arrow {
+        right: 0px !important;
+        display: none !important;
+    }
+    .slick__slider .slick-list.draggable {
+        margin: 0;
+    }
+    #search-block-form .form-search {
+        border-radius: 15px;
+    }
+    .header #search-block-form .button.js-form-submit {
+        background: transparent;
+        color: #fff;
+        font-size: 26px;
+        padding: 0;
+    }
+    .responsive-menus.responsified span.toggler {
+        display: block !important;
+    }
+    /* ////////////////////////////////// */
+    /* footer csss  */
+    .region.region-footer-first {
+        width: 100%;
+    }
+    .footer-top {
+        text-align: center;
+    }
+    ul.clearfix.menu {
+        text-align: center;
+    }
+    .site-footer__top .region {
+        float: unset;
+        width: unset;
+    }
+    span#address {
+        margin: auto;
+    }
+    .footer-top h2:after {
+        background: url("../images/line-2@2x.svg");
+        left: 50%;
+        transform: translate(-50px);
+    }
+    #left-bottom {
+        float: unset;
+        text-align: center;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    #right-bottom {
+        float: unset;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .view-youtube-video-by-listing .views-col,
+    .view-my-videos-listing .views-col {
+        width: 100% !important;
+        margin-bottom: 25px !important;
+    }
+    .header .col-sm-3.logo {
+        position: relative;
+        z-index: 1;
+    }
+    .view-youtube-video-by-category .slick-slide {
+        margin-right: 0px;
+    }
+    .view-search-videos .views-col {
+        width: 100% !important;
+        margin-bottom: 25px !important;
+    }
+    .view-youtube-video-by-listing .views-row,
+    .view-search-videos .views-row,
+    .view-my-videos-listing .views-row {
+        margin-bottom: unset !important;
+    }
+    n-navigation i.fa.fa-search {
+        display: none;
+    }
+    .view-youtube-video-by-category .views-field.views-field-field-youtube-video,
+    .view-my-videos .views-field.views-field-field-youtube-video {
+        margin-right: 0px;
+    }
+    .views-exposed-form .form--inline.clearfix,
+    .mobile-login-block .form--inline.clearfix {
+        position: relative;
+        display: table;
+    }
+    #block-views-block-youtube-video-by-category-block-1 .slick-list.draggable {
+        max-height: unset;
+    }
+    div#block-views-block-youtube-video-by-category-block-5 .slick-list {
+        max-height: 550px;
+    }
+    .layout-main #views-exposed-form-search-videos-page-1 .btn-primary {
+        margin-left: 0;
+    }
+    .js-form-item-field-organization-name-value {
+        margin: 7px 0px;
+    }
+    .js-form-item-field-video-category-target-id {
+        margin-bottom: 7px;
+    }
+    .section.container.clearfix {
+        position: relative;
+    }
+    .path-frontpage .highlighted,
+    .highlighted {
+        padding-top: 15px !important;
+    }
+    .views-exposed-form-mobile i.fa.fa-search {
+        display: block;
+    }
+    .views-exposed-form-mobile i.fa.fa-search {
+        color: #fff;
+    }
+    .views-exposed-form-mobile span {
+        padding-left: 11px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .mobile-login-block a:last-child {
+        border: none;
+    }
+    .mobile-login-block>a,
+    .views-exposed-form-mobile a {
+        padding: 1em 5%;
+    }
+    .main-navigation .profile--block {
+        display: none;
+    }
+    /*  my videos css  */
+    .slick--view--my-videos .views-field.views-field-field-youtube-video img {
+        width: 100%;
+    }
+    /* banner section css  */
+    .slideshow-banner-text {
+        padding: 0px 10%;
+    }
+    .slideshow-banner-text .banner-title a {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        display: block;
+        color: #ffffff;
+    }
+    .slideshow-banner-text .organization-name {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 14px;
+    }
+    .slideshow-banner-text .watch-video a {
+        font-size: 12px;
+    }
+    .view-slideshow-banner ul.slick-dots {
+        position: absolute;
+        bottom: 5px;
+    }
+    .slick-list.draggable {
+        padding: 0px 0px !important;
+    }
+    /* ////////////////////////////// */
+    .slick-arrow:hover::before {
+        color: #ff6d2c !important;
+    }
+    .view-youtube-video-by-listing .views-row,
+    .view-search-videos .views-row,
+    .view-my-videos-listing .views-row {
+        margin-bottom: unset;
+    }
+    .js-form-item-field-organizations-name-value {
+        margin: 5px 0px;
+        width: 100%;
+    }
+    .path-frontpage .contextual-region {
+        position: relative;
+    }
+    .responsive-menus.responsified .responsive-menus-simple li a.profile-logout.ultimenu__link {
+        display: none;
+    }
+    .user-logged-in .responsive-menus.responsified .responsive-menus-simple li a.profile-logout.ultimenu__link {
+        display: block;
+    }
+    ul.tabs.primary li a {
+        padding: 5px 7px;
+        font-size: 13px;
+    }
+    .user-logged-in .main-navigation #ultimenu-main-menu li:last-child {
+        display: inline-block !important;
+    }
+    .user-profile-deatials .col-sm-3.user-profile-image {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    /* about-us page */
+    .about-us-banner .banner-text h1 {
+        font-size: 30px;
+    }
+    .view-id-explore_toronto_s_arts_community .views-row {
+        max-width: 315px;
+        margin: auto;
+        float: unset;
+    }
+    .view-id-explore_toronto_s_arts_community .views-col {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+    /* about us page css  */
+    #content {
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    #sidebar-second {
+        max-width: 360px;
+        width: 100% !important;
+        float: unset;
+        margin: auto;
+        overflow: hidden;
+    }
+    .sidebar-second #content {
+        width: unset;
+        float: left;
+    }
+    #main-wrapper {
+        padding-bottom: unset;
+    }
+    #sidebar-first {
+        max-width: 390px;
+        max-width: 100% !important;
+        float: unset;
+        margin: auto;
+    }
+    body.sidebar-first #content {
+        width: unset !important;
+        float: left;
+    }
+    .welcome-to-digital-reach p {
+        max-width: 100%;
+    }
+}
